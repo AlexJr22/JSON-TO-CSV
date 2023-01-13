@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Json to CSV</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Json to CSV</title>
 </head>
 <body>
-    
-    <h1>
-        Convesor
-    </h1>
+  <h1>
+    Convesor
+  </h1>
 
-    <main>
-        <div>
-            <span>JSON</span>
-            <textarea name="json" id="json" cols="30" rows="10"></textarea>
-        </div>
-        
-        <div>
-            <span>CSV</span>
-            <textarea name="json" id="json" cols="30" rows="10"></textarea>
-        </div>
-    </main>
-
+  <main>
     <div>
-        <button>converter</button>
+      <span>JSON</span>
+      <textarea name="json" id="json" cols="30" rows="10"></textarea>
     </div>
 
-    <script type="module" src="scripts/script.js"></script>
+    <div>
+      <span>CSV</span>
+      <div id="outputCsv"></div>
+    </div>
+  </main>
+
+  <div>
+    <button>converter</button>
+  </div>
+
+  <script type="module" src="scripts/script.js"></script>
 </body>
 </html>
