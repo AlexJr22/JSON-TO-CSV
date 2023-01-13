@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Bebas Neue', cursive;
-  border: 1px solid black;
 }
 
 body {
@@ -14,16 +13,22 @@ body {
 }
 
 h1 {
+  border: 1px solid black;
   width: 56.1%;
   min-width: 700px;
+  margin-inline: auto;
 }
 
 main {
+  border: 1px solid black;
   width: 56.1%;
   min-width: 700px;
+  margin-inline: auto;
 }
 
 #containerBtn {
+  border: 1px solid black;
   width: 56.1%;
   min-width: 700px;
+  margin-inline: auto;
 }
