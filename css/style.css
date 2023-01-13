@@ -10,25 +10,26 @@
 body {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
   border: 1px solid black;
   width: 56.1%;
   min-width: 700px;
-  margin-inline: auto;
 }
 
 main {
   border: 1px solid black;
   width: 56.1%;
   min-width: 700px;
-  margin-inline: auto;
 }
 
 #containerBtn {
   border: 1px solid black;
   width: 56.1%;
   min-width: 700px;
-  margin-inline: auto;
 }
