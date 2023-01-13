@@ -18,18 +18,27 @@ body {
 
 h1 {
   border: 1px solid black;
+  display: flex;
+  
   width: 56.1%;
   min-width: 700px;
+
+  justify-content: center;
 }
 
 main {
   border: 1px solid black;
   width: 56.1%;
+  height: 500px;
   min-width: 700px;
 }
 
 #containerBtn {
   border: 1px solid black;
+  display: flex;
+
   width: 56.1%;
   min-width: 700px;
+
+  justify-content: center;
 }
