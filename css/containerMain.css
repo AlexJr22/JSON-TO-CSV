@@ -63,3 +63,12 @@
   color: #fdfdd0;
   font-size: 72px;
 }
+
+#outputCsv {
+  border: 5px solid #fdfdd0;
+  
+  width: 290px;
+  height: 305px;
+  
+  border-radius: 5px;
+}
