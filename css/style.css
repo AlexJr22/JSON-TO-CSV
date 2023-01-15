@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');@import url(./containerMain.css);
 
 * {
   margin: 0;
@@ -29,13 +29,6 @@ h1 {
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.301);
 
   justify-content: center;
-}
-
-main {
-  border: solid 1px;
-  width: 56.1%;
-  min-width: 400px;
-  height: 450px;
 }
 
 #containerBtn {
