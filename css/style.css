@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');@import url(./containerMain.css);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url(./containerMain.css);
 
 * {
   margin: 0;
@@ -32,7 +34,6 @@ h1 {
 }
 
 #containerBtn {
-  border: solid 1px;
   display: flex;
 
   width: 56.1%;
