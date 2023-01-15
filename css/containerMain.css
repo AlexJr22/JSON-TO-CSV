@@ -7,8 +7,10 @@
   flex-direction: row;
 }
 
+/* estilizandoa div#json */
+
 #json {
-  background-image: linear-gradient(#a0a092, #ffffd1);
+  background-image: linear-gradient(to top, #a0a092, #ffffd1);
   
   width: 50%;
 
@@ -39,4 +41,25 @@
   border: #424e59 solid 5px;
   outline: none;
   resize: none;
+}
+
+/* estilizando a div#csv */
+
+#csv {
+  background-image: linear-gradient(to bottom, #424c55, #477baa);
+  
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#csv span {
+  color: #fdfdd0;
+  font-size: 72px;
 }
