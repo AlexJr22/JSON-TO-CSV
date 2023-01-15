@@ -1,0 +1,25 @@
+#containerBtn {
+  display: flex;
+  width: 56.1%;
+  justify-content: center;
+}
+
+#containerBtn button {
+  background: linear-gradient(to right, #fdfdd0, #424d57);
+  
+  width: 150px;
+  height: 60px;
+  
+  margin-top: 25px;
+
+  border: none;
+  border-radius: 15px;
+}
+
+#containerBtn button img {
+  width: 48px;
+}
+
+#containerBtn:active button {
+  background: linear-gradient(to right, #fafae9, #505458);
+}
