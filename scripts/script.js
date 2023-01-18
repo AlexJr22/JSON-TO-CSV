@@ -6,11 +6,20 @@ const validarJson = (json) => {
 
   try {
     let jsonObject = JSON.parse(StringJson);
-    console.log(jsonObject);
+    // console.log(jsonObject);
+    converterJson(jsonObject);
   } catch (error) {
     console.log(error);
     alert("Erro: O valor passado não está em formato Json!");
   }
+};
+
+const converterJson = (json) => {
+  const keys = Object.keys(json);
+  const value = Object.values(json);
+
+  console.log(keys);
+  console.log(value);
 };
 
 btnConverter.addEventListener("click", () => {
