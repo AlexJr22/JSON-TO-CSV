@@ -6,7 +6,6 @@ const validarJson = (json) => {
 
   try {
     let jsonObject = JSON.parse(StringJson);
-    // console.log(jsonObject);
     converterJson(jsonObject);
   } catch (error) {
     console.log(error);
@@ -15,11 +14,14 @@ const validarJson = (json) => {
 };
 
 const converterJson = (json) => {
-  const keys = Object.keys(json);
-  const value = Object.values(json);
+  const keys = Object.keys(json[0]); // captura as keys dos elementos
 
-  console.log(keys);
-  console.log(value);
+  console.log(keys); // mostra no console as keys
+
+  json.forEach((element, index) => {
+    const values = Object.values(json[index]);
+    console.log(values);
+  });
 };
 
 btnConverter.addEventListener("click", () => {
