@@ -2,7 +2,7 @@ const inputJson = document.getElementById("inputText"); // recebe o valor de um 
 const btnConverter = document.getElementById("btnConverter"); // botão que chama a função que converte os valores
 
 const validarJson = (json) => {
-  let StringJson = String(json); // converte o valor do inputJson para uma string
+  let StringJson = String(json.value); // converte o valor do inputJson para uma string
 
   try {
     let jsonObject = JSON.parse(StringJson);
@@ -14,5 +14,5 @@ const validarJson = (json) => {
 };
 
 btnConverter.addEventListener("click", () => {
-  validarJson(inputJson.value);
+  validarJson(inputJson);
 });
