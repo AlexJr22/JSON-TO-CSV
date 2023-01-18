@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Json to CSV</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Json to CSV</title>
 
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Conversor</h1>
 
-</head>
-<body>
-  <h1>
-    Conversor
-  </h1>
+    <main id="containerMain">
+      <div id="json">
+        <span>JSON</span>
+        <textarea autofocus name="json" id="inputText">
+[{"Id":1,"UserName":"Alex Junior"},
+{"Id":2,"UserName":"José Alexandre"},
+{"Id":3,"UserName":"Mateus Sampaio"}]
+        </textarea>
+      </div>
 
-  <main id="containerMain">
+      <div id="csv">
+        <span>CSV</span>
+        <div id="outputCsv"></div>
+      </div>
+    </main>
 
-    <div id="json">
-      <span>JSON</span>
-      <textarea autofocus name="json" id="inputText"></textarea>
+    <div id="containerBtn">
+      <button id="btnConverter">
+        <img src="imgs/dobleArrow.svg" alt="converter" />
+      </button>
     </div>
 
-    <div id="csv">
-      <span>CSV</span>
-      <div id="outputCsv"></div>
-    </div>
-
-  </main>
-
-  <div id="containerBtn">
-    <button id="btnConverter" ><img src="imgs/dobleArrow.svg" alt="converter"></button>
-  </div>
-
-  <script type="module" src="scripts/script.js"></script>
-</body>
+    <script type="module" src="scripts/script.js"></script>
+  </body>
 </html>
