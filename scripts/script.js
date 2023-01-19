@@ -6,9 +6,10 @@ const converterJsonParaCsv = (json) => {
   const keys = Object.keys(json[0]); // captura as keys dos elementos
 
   console.log(keys); // mostra no console as keys
-  outputCsv.innerHTML = `${keys}<br>`;  // adiciona as keys uma vez ao outputCsv
+  outputCsv.innerHTML = `${keys}<br>`; // adiciona as keys uma vez ao outputCsv
 
-  json.forEach((element, index) => {  // adiciona os values ao outputCsv
+  json.forEach((element, index) => {
+    // adiciona os values ao outputCsv
     const values = Object.values(json[index]);
     console.log(values);
     outputCsv.innerHTML += `${values}<br>`;
