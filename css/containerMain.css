@@ -14,7 +14,7 @@
 
 #json {
   background-image: linear-gradient(to top, #a0a092, #ffffd1);
-  
+
   width: 50%;
 
   display: flex;
@@ -34,6 +34,7 @@
 #json #inputText {
   border-radius: 7px;
   background: none;
+  color: #424e59;
   font-size: 1.2em;
 
   display: flex;
@@ -41,7 +42,7 @@
   width: 290px;
   height: 305px;
 
-
+  padding: 5px;
   border: #424e59 solid 5px;
   outline: none;
   resize: none;
@@ -51,7 +52,7 @@
 
 #csv {
   background-image: linear-gradient(to bottom, #424c55, #477baa);
-  
+
   width: 50%;
 
   display: flex;
@@ -69,10 +70,12 @@
 }
 
 #outputCsv {
+  color: #fdfdd0;
   border: 5px solid #fdfdd0;
-  
+
   width: 290px;
   height: 305px;
-  
+
   border-radius: 5px;
+  padding: 5px;
 }
