@@ -2,7 +2,7 @@ const inputJson = document.getElementById("inputText"); // recebe o valor de um 
 const btnConverter = document.getElementById("btnConverter"); // botão que chama a função que converte os valores
 const outputCsv = document.getElementById("outputCsv");
 
-const converterJson = (json) => {
+const converterJsonParaCsv = (json) => {
   const keys = Object.keys(json[0]); // captura as keys dos elementos
 
   console.log(keys); // mostra no console as keys
@@ -20,7 +20,7 @@ const validarJson = (json) => {
 
   try {
     let jsonObject = JSON.parse(StringJson);
-    converterJson(jsonObject);
+    converterJsonParaCsv(jsonObject);
   } catch (error) {
     console.log(error);
     alert("Erro: O valor passado não está em formato Json!");
